@@ -39,6 +39,7 @@
     =============================================== -->
     <link href="./css/styles.css?83aefabad72e0477dff7" rel="stylesheet">
     <script src="https://kit.fontawesome.com/79b0a844ca.js" crossorigin="anonymous"></script>
+    
 </head>
 
 <body>
@@ -51,43 +52,8 @@
 
             <h2>Demo Variant</h2>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 mb20">
-                        <figure>
-                            <a href="/homepage-v1.html" target="_blank">
-                                <img src="images/500x400.jpg" alt="" class="img-fluid">
-                            </a>
-                        </figure>
-
-                        <h6 class="text-white">Homepage</h6>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 mb20">
-                        <figure>
-                            <a href="./blog.html" target="_blank">
-                                <img src="images/500x400.jpg" alt="" class="img-fluid">
-                            </a>
-                        </figure>
-                        <h6 class="text-white">Blog</h6>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-12 mb20">
-                        <figure>
-                            <a href="./blog-detail.html" target="_blank">
-                                <img src="images/500x400.jpg" alt="" class="img-fluid">
-                            </a>
-                        </figure>
-                        <h6 class="text-white">Single Blog</h6>
-                    </div>
-
-
-                </div>
-
-            </div>
+            
+              
 
           <!--
             <ul class="setting-button list-unstyled bg-dark d-none d-sm-block">
@@ -111,6 +77,8 @@
         <div class="bg-overlay"></div>
         <!-- NAVBAR -->
         <!-- NAVBAR -->
+        
+
 
         <nav class="navbar navbar-hover navbar-expand-lg navbar-soft">
             <div class="container">
@@ -190,7 +158,7 @@
                         <div class="wrapper" data-aos="fade-up">
                             <div class="intro-grid"></div>
                             <figure>
-                                <img src="images/350x450.jpeg" alt="" class="img-fluid">
+                                <img src="images/350x450.jpg" alt="" class="img-fluid">
 
                             </figure>
                         </div>
@@ -868,6 +836,15 @@
     <script src="./js/index.bundle.js?83aefabad72e0477dff7"></script>
     <script>
       document.getElementById('year').innerHTML = new Date().getFullYear();
+      
+        function changeHTMLLang() {
+            // Access the <html> tag
+            var htmlTag = document.querySelector('html'); // You can also use document.documentElement
+
+            // Change the lang attribute of the <html> tag
+            htmlTag.setAttribute('lang', 'fr'); // Change to French ('fr')
+        }
+    
 
     </script>
 </body>
